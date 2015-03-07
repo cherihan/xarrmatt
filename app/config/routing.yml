@@ -1,0 +1,11 @@
+xm_user:
+    resource: "@XmUserBundle/Resources/config/routing.yml"
+    prefix:   /utilisateur
+
+xm_covoiturage:
+    resource: "@XmCovoiturageBundle/Resources/config/routing.yml"
+    prefix:   /covoiturage
+
+xm_main:
+    resource: "@XmMainBundle/Resources/config/routing.yml"
+    prefix:   /

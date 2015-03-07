@@ -1,0 +1,15 @@
+xm_main_accueil:
+    path:     /
+    defaults: { _controller: XmMainBundle:Default:index }
+
+xm_main_connexion:
+    path:     /connexion
+    defaults: { _controller: XmMainBundle:Default:connexion }
+
+
+xm_main_validation_connexion:
+    path:     /validation_connexion
+
+xm_main_deconnexion:
+    path:     /logout
+

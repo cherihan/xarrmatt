@@ -1,0 +1,3 @@
+xm_covoiturage_homepage:
+    path:     /
+    defaults: { _controller: XmCovoiturageBundle:Default:index }
